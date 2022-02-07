@@ -1,1 +1,1 @@
-### Projeto para exibir: o total de números inseridos, a soma e media dos mesmos.
+### Projeto para exibir: O maior valor, O menor valor, A Soma e a Media dos números inseridos pelo o usuário.
