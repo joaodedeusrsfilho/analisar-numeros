@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgb(8, 8, 80);
+    font-family: Arial, normal 15pt;
+    
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background: linear-gradient(to bottom left, rgb(135, 179, 15), rgb(5, 54, 5));    
+    background-color: rgb(51, 3, 184);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    color: white;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+select{
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+}
+#input-finalizar{
+    margin-top: 10px;
+}

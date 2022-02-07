@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Analisar Numeros</title>
+</head>
+<body>
+    <header>
+        <h1>Analisar Números</h1>
+    </header>
+    <main>
+    <section>
+        <div>
+            Digite números entre (1 à 100) 
+            <input type="number" name="input-number" id="input-number"> 
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br>
+            <select name="select" id="select" size="6">
+            </select>
+            <br>
+            <input type="button" value="Finalizar" id="input-finalizar" onclick="finalizar()">
+        </div>
+        <br>
+        <div id="div-resultado">
+            
+        </div>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvido por João de Deus</p>
+    </footer>
+    <!-- carregando script após toda a pagina ser carregada -->
+    <script src="js/script.js"></script>
+</body>
+</html>
